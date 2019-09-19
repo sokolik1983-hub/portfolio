@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+  margin: 0 auto;
+  padding: 0; }
+
+.navbar__item {
+  list-style: none;
+  padding: 24px 0; }
+
+.navbar__link {
+  color: white;
+  text-decoration: none;
+  font-family: Poppins,Helvetica,sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  transition: .3s; }
+
+.navbar__link--main {
+  color: #f10e34; }
+
+.navbar__link:hover {
+  color: #f10e34;
+  border-bottom: 2px solid #f10e34; }
