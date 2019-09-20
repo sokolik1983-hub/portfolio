@@ -1,0 +1,52 @@
+.arrow {
+  animation: animate 1.5s infinite;
+  animation-timing-function: linear;
+  position: absolute;
+  z-index: 10;
+  left: 400px;
+  top: 1200px;
+  display: none;
+}
+
+.arrow__block1 {
+  background-color: white;
+  height: 50px;
+  width: 20px;
+  margin-top: 7px;
+}
+.arrow__block2 {
+  background-color: transparent;
+  width: 0;
+  height: 40px;
+  border-top: 40px solid white;
+  border-right: 30px solid transparent;
+  border-left: 30px solid transparent;
+  margin-left: -20px;
+}
+.arrow__circle {
+  width: 120px;
+  height: 120px;
+  background-color: transparent;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: -52px;
+  margin-top: -10px;
+  border: 3px solid white;
+}
+.arrow:hover .arrow__circle {
+  -moz-box-shadow: 0 0 5px 5px #888;
+  -webkit-box-shadow: 0 0 5px 5px #888;
+  box-shadow: 0 0 5px 5px #888;
+}
+
+@keyframes animate {
+  0% {
+    margin-top: 20px;
+  }
+  50% {
+    margin-top: 0;
+  }
+  100% {
+    margin-top: 20px;
+  }
+}
