@@ -42,7 +42,8 @@ body {
 .header__title, .header__subtitle, .header__text {
   color: white;
   font-family: Raleway,Helvetica,sans-serif;
-  margin: 0 0 40px; }
+  margin: 0 0 40px;
+  text-shadow: 3px 3px 3px black; }
 
 .header__title {
   letter-spacing: 0.5em;
@@ -144,10 +145,22 @@ body {
   100% {
     margin-top: 0; } }
 
-.about_me {
+.about {
   width: 100%;
-  height: 100vh;
-  background-color: lightgrey; }
+  height: 100vh; }
+
+.about__sl {
+  width: 500px;
+  margin: 20px;
+  border: 20px solid #f10e34;
+  border-right: 20px solid transparent; }
+
+.about__sl {
+  border-image: linear-gradient(to right, #f10e34 0%, #f10e34 50%, transparent 50%, transparent 100%) 1; }
+
+.about__img {
+  width: 500px;
+  height: 500px; }
 
 .arrow {
   animation: animate 1.5s infinite;
@@ -196,13 +209,9 @@ body {
   100% {
     margin-top: 20px; } }
 
-.sl_container {
+.sl__container {
   width: 80%;
-  margin: 0 auto;
-  position: absolute;
-  bottom: 40px;
-  left: 0;
-  right: 0; }
+  margin: 0 auto; }
 
 .sl__img {
   width: 90%;
@@ -214,7 +223,7 @@ body {
   height: 100%;
   width: 90%; }
 
-.my-prevArrow, .my-nextArrow {
+.sl__my-prevArrow, .sl__my-nextArrow {
   position: absolute;
   width: 20px;
   height: 20px;
@@ -224,20 +233,10 @@ body {
   cursor: pointer;
   z-index: 99; }
 
-.my-nextArrow {
-  bottom: 200px; }
-
-.my-prevArrow {
-  bottom: 200px; }
-
-.my-prevArrow:hover, .my-nextArrow:hover {
+.sl__my-prevArrow:hover, .sl__my-nextArrow:hover {
   opacity: 1; }
 
-.sl__arrow {
-  position: absolute;
-  z-index: 100; }
-
-.my-dots {
+.sl__my-dots {
   position: absolute;
   bottom: -65px;
   display: block;
@@ -246,7 +245,7 @@ body {
   list-style: none;
   text-align: center; }
 
-.my-dots li {
+.sl__my-dots li {
   position: relative;
   display: inline-block;
   width: 20px;
@@ -255,7 +254,7 @@ body {
   padding: 0;
   cursor: pointer; }
 
-.my-dots li button {
+.sl__my-dots li button {
   font-size: 0;
   line-height: 0;
   display: block;
@@ -268,15 +267,15 @@ body {
   outline: none;
   background: transparent; }
 
-.my-dots li button:hover,
-.my-dots li button:focus {
+.sl__my-dots li button:hover,
+.sl__my-dots li button:focus {
   outline: none; }
 
-.my-dots li button:hover:before,
-.my-dots li button:focus:before {
+.sl__my-dots li button:hover:before,
+.sl__my-dots li button:focus:before {
   opacity: 1; }
 
-.my-dots li button:before {
+.sl__my-dots li button:before {
   font-size: 6px;
   line-height: 20px;
   position: absolute;
@@ -291,6 +290,72 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-.my-dots li.slick-active button:before {
+.sl__my-dots li.slick-active button:before {
   opacity: .75;
   color: black; }
+
+.portfolio {
+  width: 100%;
+  height: 100vh;
+  background-color: lightgrey; }
+
+.portfolio__title, .portfolio__subtitle {
+  font-family: Raleway,Helvetica,sans-serif;
+  letter-spacing: 0.5em;
+  font-size: 50px;
+  line-height: 60px;
+  margin: 0;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  padding: 30px 0; }
+
+.portfolio__subtitle {
+  font-size: 40px; }
+
+.portfolio__hr {
+  border: 1px solid darkgrey;
+  margin: 0 200px 40px; }
+
+.portfolio__rhombus {
+  width: 10px;
+  height: 10px;
+  border: 2px solid darkgrey;
+  margin: -48px auto 0;
+  background-color: lightgrey;
+  transform: rotate(45deg); }
+
+.portfolio__rhombus--color {
+  background-color: white; }
+
+.portfolio__container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 10%; }
+
+.portfolio__wrap {
+  display: flex; }
+
+.portfolio__box {
+  width: 33%;
+  padding: 10px; }
+
+.portfolio__wrap--hidden {
+  display: none; }
+
+.portfolio__jpg {
+  width: 100%; }
+
+.portfolio__link {
+  transition: 1s; }
+
+.portfolio__link--close {
+  display: none; }
+
+.sl-mini {
+  width: 500px;
+  margin: 0 20px; }
+
+.sl-mini__img {
+  width: 125px; }

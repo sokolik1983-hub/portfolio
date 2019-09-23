@@ -21,6 +21,7 @@
   color: white;
   font-family: Raleway,Helvetica,sans-serif;
   margin: 0 0 40px;
+  text-shadow: 3px 3px 3px black;
 }
 .header__title {
   letter-spacing: 0.5em;
@@ -31,6 +32,7 @@
   line-height: 60px;
   animation: header__title 5s 1;
   position: relative;
+
 }
 .header__subtitle {
   font-weight: 600;

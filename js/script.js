@@ -11,9 +11,9 @@ $('.sl').slick({
     slidesToScroll: 1,
     speed: 500,
     dots: true,
-    dotsClass: "my-dots",
-    nextArrow: ".my-nextArrow",
-    prevArrow: ".my-prevArrow",
+    dotsClass: "sl__my-dots",
+    nextArrow: ".sl__my-nextArrow",
+    prevArrow: ".sl__my-prevArrow",
 
     responsive: [
         {breakpoint: 1024,
@@ -36,4 +36,34 @@ $('.sl').slick({
         }
 
     ]
+});
+// slider from section--about
+
+$('.about__sl').slick({
+    autoplay: true,
+    vertical: true,
+    arrows: false,
+    asNavFor: ".sl-mini",
+});
+// slider from section--about
+$('.sl-mini').slick({
+    slidesToShow: 4,
+    arrows: false,
+    asNavFor: ".about__sl",
+    focusOnSelect: true,
+    slidesToScroll: 4,
+    infinite: false
+});
+
+// lazyLoad
+$('.portfolio__link--open').on('click', function() {
+    $('.portfolio__wrap--hidden').css('display', 'flex');
+    $(".portfolio__link--open").css('display', 'none');
+    $(".portfolio__link--close").css('display', 'block');
+});
+
+$('.portfolio__link--close').on('click', function() {
+    $('.portfolio__wrap--hidden').css('display', 'none');
+    $(".portfolio__link--open").css('display', 'block');
+    $(".portfolio__link--close").css('display', 'none');
 });
