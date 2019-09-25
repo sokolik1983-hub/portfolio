@@ -1,6 +1,6 @@
 .portfolio {
   width: 100%;
-  height: 100vh;
+  //height: 100vh;
   background-color: lightgrey;
 }
 .portfolio__title, .portfolio__subtitle {
@@ -31,6 +31,10 @@
 }
 .portfolio__rhombus--color {
   background-color: white;
+}
+.portfolio__rhombus--footer, .portfolio__hr--footer {
+  position: absolute;
+  z-index: 99;
 }
 .portfolio__container {
   display: flex;
