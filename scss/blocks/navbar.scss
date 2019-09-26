@@ -17,6 +17,7 @@
   font-size: 30px;
   font-weight: 600;
   transition: .3s;
+  text-shadow: 0 0 3px rgba(0,0,0,0.7);
 }
 .navbar__link--main {
   color: #f10e34;
@@ -41,5 +42,10 @@
   }
   100% {
     margin-top: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navbar {
+    display: none;
   }
 }

@@ -5,8 +5,8 @@
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  display: none;
-}
+  display: none; }
+
 .hamburger__menu-item {
   display: inline-block;
   color: #333333;
@@ -15,11 +15,11 @@
   line-height: 30px;
   padding: 0 10px;
   text-transform: uppercase;
-  text-decoration: none;
-}
+  text-decoration: none; }
+
 .hamburger__menu-item:hover {
-  text-decoration: underline;
-}
+  text-decoration: underline; }
+
 .hamburger__icon {
   margin-top: 12px;
   margin-right: 8px;
@@ -27,9 +27,8 @@
   width: 45px;
   height: 35px;
   position: relative;
-  cursor: pointer;
+  cursor: pointer; }
 
-}
 .hamburger__item {
   display: block;
   position: absolute;
@@ -39,48 +38,43 @@
   border-radius: 9px;
   left: 0;
   transform: rotate(0deg);
-  transition: .25s ease-in-out;
-}
+  transition: .25s ease-in-out; }
+
 .hamburger__item:nth-child(1) {
-  top: 0;
-}
+  top: 0; }
+
 .hamburger__item:nth-child(2), .hamburger__item:nth-child(3) {
-  top: 13px;
-}
+  top: 13px; }
+
 .hamburger__item:nth-child(4) {
-  top: 26px;
-}
+  top: 26px; }
 
-.hamburger.menu-open .hamburger__item:nth-child(1){
-  top:18px;
+.hamburger.menu-open .hamburger__item:nth-child(1) {
+  top: 18px;
   width: 0;
-  left: 50%;
-}
-.hamburger.menu-open .hamburger__item:nth-child(2){
-  transform: rotate(45deg);
-}
-.hamburger.menu-open .hamburger__item:nth-child(3){
-  transform: rotate(-45deg);
-}
+  left: 50%; }
 
-.hamburger.menu-open .hamburger__item:nth-child(4){
-  top:18px;
+.hamburger.menu-open .hamburger__item:nth-child(2) {
+  transform: rotate(45deg); }
+
+.hamburger.menu-open .hamburger__item:nth-child(3) {
+  transform: rotate(-45deg); }
+
+.hamburger.menu-open .hamburger__item:nth-child(4) {
+  top: 18px;
   width: 0;
-  left: 50%;
-}
+  left: 50%; }
+
 .hamburger.menu-open .hamburger__links {
-  opacity: 1;
-}
+  opacity: 1; }
 
 @media screen and (max-width: 768px) {
   .hamburger {
     display: block;
-    z-index: 100;
-  }
+    z-index: 100; }
   .hamburger__icon {
     display: inline-block;
-    z-index: 100;
-  }
+    z-index: 100; }
   .hamburger__links {
     position: fixed;
     display: block;
@@ -88,16 +82,13 @@
     right: 0;
     left: 0;
     margin-top: 62px;
-    background-color: rgba(0,0,0,.8);
+    background-color: rgba(0, 0, 0, 0.8);
     z-index: 100;
     overflow: auto;
-    opacity: 0;
-  }
+    opacity: 0; }
   .hamburger__menu-item {
     display: block;
     padding: 10px 0;
     text-align: center;
     color: #fff;
-    z-index: 100;
-  }
-}
+    z-index: 100; } }

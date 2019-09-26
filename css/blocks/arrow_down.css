@@ -4,7 +4,7 @@
   position: absolute;
   z-index: 10;
   left: 400px;
-  top: 1200px;
+  top: 750px;
   display: none; }
 
 .arrow__block1 {
@@ -44,3 +44,7 @@
     margin-top: 0; }
   100% {
     margin-top: 20px; } }
+
+@media screen and (max-width: 1024px) {
+  .arrow__circle, .arrow__block1, .arrow__block2 {
+    display: none; } }

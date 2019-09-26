@@ -1,18 +1,13 @@
 .sl-mini {
   width: 500px;
-  margin: 0 20px;
-}
-
+  margin: 0 20px; }
 
 .sl-mini__img {
   width: 125px;
-  cursor: pointer;
-}
+  cursor: pointer; }
+
 @media screen and (max-width: 414px) {
   .sl-mini {
-    width: 280px;
-  }
+    width: 280px; }
   .sl-mini__img {
-    width: 70px;
-  }
-}
+    width: 70px; } }

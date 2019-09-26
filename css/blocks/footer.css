@@ -1,49 +1,49 @@
 footer {
   width: 100%;
-  background-color: #333;
-}
+  background-color: #333; }
+
 .footer__container {
   width: 80%;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
+
 .footer__wrap {
-  text-align: center;
-}
+  text-align: center; }
+
 .footer__inner {
-  text-align: center;
-}
+  text-align: center; }
+
 .footer__title {
   margin-top: 50px;
   font-family: Raleway,Helvetica,sans-serif;
   color: white;
-  font-size: 30px;
-}
+  font-size: 30px; }
+
 .footer__rhombus {
-  background-color: #333;
-}
+  background-color: #333; }
+
 .footer__form {
-  display: block;
-}
+  display: block; }
+
 .footer__input, .footer__textarea, .footer__submit {
   padding-left: 20px;
   font-family: Raleway,Helvetica,sans-serif;
-  font-size: 20px;
-}
+  font-size: 20px; }
+
 .footer__input {
   width: 370px;
   height: 60px;
   line-height: 34px;
-  color: #333;
-}
+  color: #333; }
+
 .footer__input--secondary {
-  margin-left: 30px;
-}
+  margin-left: 30px; }
+
 .footer__textarea {
   padding-top: 10px;
   width: 800px;
   height: 200px;
-  margin-top: 30px;
-}
+  margin-top: 30px; }
+
 .footer__submit {
   display: block;
   margin: 30px auto;
@@ -54,55 +54,45 @@ footer {
   border: 1px solid white;
   font-weight: 600;
   color: grey;
-  cursor: pointer;
-}
+  cursor: pointer; }
+
 .footer__inner--sub {
-  padding-bottom: 30px;
-}
+  padding-bottom: 30px; }
+
 .footer__social {
   display: flex;
   width: 100%;
   justify-content: center;
   align-items: flex-start;
   padding: 0 0 20px;
-  margin: 0;
-}
+  margin: 0; }
+
 .footer__item {
-  list-style: none;
-}
+  list-style: none; }
+
 .footer__item--vk {
-  padding: 2px 20px 0;
-}
+  padding: 2px 20px 0; }
 
 .footer__link {
   padding: 10px;
   border: 1px solid transparent;
-  transition: .3s;
+  transition: .3s; }
 
-}
 .footer__link:hover {
-  border: 1px solid white;
-}
+  border: 1px solid white; }
+
 @media screen and (max-width: 1024px) {
   .footer__input--secondary {
     margin-left: 0;
-    margin-top: 10px;
-  }
+    margin-top: 10px; }
   .footer__textarea {
-    width: 350px;
-  }
-}
+    width: 350px; } }
 
 @media screen and (max-width: 414px) {
   .footer__input {
-    width: 250px;
-  }
+    width: 250px; }
   .footer__input--secondary {
     margin-left: 0;
-    margin-top: 10px;
-  }
+    margin-top: 10px; }
   .footer__textarea {
-    width: 250px;
-  }
-}
-
+    width: 250px; } }
