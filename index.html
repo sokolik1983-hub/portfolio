@@ -3,12 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-
-
 </head>
 <body>
 <header>
@@ -45,7 +43,7 @@
         <div class="header__textwrap">
             <h1 class="header__title">Соколов Алексей</h1>
             <h2 class="header__subtitle">HTML-верстальщик</h2>
-            <h3 class="header__text">Я создаю сайты, которые нравятся людям</h3>
+            <h3 class="header__text">HTML5, CSS3, JS/Jquery, Gulp</h3>
         </div>
     </div>
     <div class="arrow">
@@ -56,11 +54,11 @@
         </a>
     </div>
 
-        <div class="header__background">
-            <div class="overlay">
+    <div class="header__background">
+        <div class="overlay">
 
-            </div>
         </div>
+    </div>
 
 
 </header>
@@ -112,15 +110,20 @@
                 </div>
             </div>
             <div class="about__wrap about__wrap--sidebar">
+
                 <h3 class="about__subtitle">Немного о себе:</h3>
-                <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem consequuntur,
-                    delectus ducimus magni maxime quod repellat sunt. A accusantium aliquid asperiores commodi culpa
-                    cumque delectus dolor doloremque eligendi est eveniet excepturi expedita fuga hic illo, inventore
-                    ipsa itaque, magnam minima molestiae neque nostrum odio placeat provident quas qui quidem quod
-                    reiciendis repellendus sapiente sequi similique tempora tenetur totam, unde ut vitae. Aliquam
-                    consectetur eum fugiat maxime molestiae molestias, perferendis quia sint veniam? Eligendi qui sequi
-                    sint sit veritatis? Animi autem delectus ducimus ex, iusto odit quia. Ab aperiam delectus doloribus
-                    eaque eum, eveniet, id nisi nobis possimus quas temporibus ullam.</p>
+
+                                <div class="about__text-box">
+                                    <p class="about__text">Здравствуйте, меня зовут Алексей. Я начинающий Web-разработчик. HTML5, CSS3,
+                                        SASS, JS/JQuery, Photoshop и Figma- то, чем я владею сейчас и постоянно совершенствую свои знания.В своей работе
+                                        использую препроцессор (SASS) и сборщики проектов (GULP) для более эффективной и быстрой вёрстки.
+                                        Что ищу: Как рыбе вода, необходима стажировка по html/javascript. Нужен опыт работы в команде.
+                                    </p>
+                                    <p class="about__text"> Цель №1: дорасти до уровня Middle front-end developer.</p>
+                                    <p class="about__text">Прошёл оффлайн курс углублённой вёрстки компании Easyum и получил электронный сертификат:</p>
+                                    <a href="https://it.easyum.ru/certificates/verstka_html_css_umit-010619-155/" class="about__link">Электронный сертификат</a>
+                                        <p class="about__text">Коммуникабелен, стрессоустойчив, работоспособен.</p>
+                                </div>
                 <hr class="about__hr">
                 <div class="about__inner">
                     <div class="about__contacts">
@@ -178,7 +181,8 @@
                     </div>
                 </div>
                 <div class="about__inner about__inner--btn pb-20">
-                    <a href="https://hh.ru/resume/9dba88e4ff07496cd60039ed1f6e303379664f" class="about__btn">Резюме на НН</a>
+                    <a href="https://hh.ru/resume/9dba88e4ff07496cd60039ed1f6e303379664f" class="about__btn">Резюме на
+                        НН</a>
                     <a href="#footer" class="about__btn about__btn--secondary">Сообщение</a>
                 </div>
             </div>
@@ -189,23 +193,23 @@
         </div>
 
     </section>
-    <section class="portfolio">
-        <a id="portfolio"></a>
-        <a href="#about" class="nav-arrow__link nav-arrow__link--about">
-            <div class="nav-arrow">
-                <img src="images/down-icon.png" alt="down-arrow" class="nav-arrow__img">
+        <section class="portfolio">
+            <a id="portfolio" class="portfolio__anchor"></a>
+            <a href="#about" class="nav-arrow__link nav-arrow__link--about">
+                <div class="nav-arrow">
+                    <img src="images/down-icon.png" alt="down-arrow" class="nav-arrow__img">
+                </div>
+            </a>
+            <a href="#footer" class="nav-arrow__link nav-arrow__link--footer">
+                <div class="nav-arrow nav-arrow--down">
+                    <img src="images/down-icon.png" alt="down-arrow" class="nav-arrow__img nav-arrow__img--down">
+                </div>
+            </a>
+            <div class="portfolio__inner pb-50">
+                <h2 class="portfolio__title">Мои работы</h2>
+                <hr class="portfolio__hr">
+                <div class="portfolio__rhombus"></div>
             </div>
-        </a>
-        <a href="#footer" class="nav-arrow__link nav-arrow__link--footer">
-            <div class="nav-arrow nav-arrow--down">
-                <img src="images/down-icon.png" alt="down-arrow" class="nav-arrow__img nav-arrow__img--down">
-            </div>
-        </a>
-        <div class="portfolio__inner pb-50">
-            <h2 class="portfolio__title">Мои работы</h2>
-            <hr class="portfolio__hr">
-            <div class="portfolio__rhombus"></div>
-        </div>
 
             <div class="sl__container">
 
@@ -214,43 +218,42 @@
                 <div class="sl__my-nextArrow"></div>
                 <div class="sl">
                     <div class="sl_slide">
-
-                        <a href="#" class="sl__link">
+                        <a href="http://ucheba486.site/" class="sl__link">
                             <img src="images/sl-1.JPG" alt="sl_slide1" class="sl__img">
                         </a>
                     </div>
                     <div class="sl_slide">
-                        <a href="#" class="sl__link">
+                        <a href="http://k915429g.beget.tech/" class="sl__link">
                             <img src="images/sl-2.JPG" alt="sl_slide2" class="sl__img">
                         </a>
                     </div>
                     <div class="sl_slide">
-                        <a href="#" class="sl__link">
+                        <a href="http://lionsbet.beget.tech/" class="sl__link">
                             <img src="images/sl-3.JPG" alt="sl_slide3" class="sl__img">
                         </a>
                     </div>
                     <div class="sl_slide">
-                        <a href="#" class="sl__link">
+                        <a href="http://ucheba486.site/" class="sl__link">
                             <img src="images/sl-4.JPG" alt="sl_slide4" class="sl__img">
                         </a>
                     </div>
                     <div class="sl_slide">
-                        <a href="#" class="sl__link">
+                        <a href="http://k915429g.beget.tech/" class="sl__link">
                             <img src="images/sl-5.JPG" alt="sl_slide5" class="sl__img">
                         </a>
                     </div>
                     <div class="sl_slide">
-                        <a href="#" class="sl__link">
+                        <a href="http://lionsbet.beget.tech/" class="sl__link">
                             <img src="images/sl-6.JPG" alt="sl_slide6" class="sl__img">
                         </a>
                     </div>
                     <div class="sl_slide">
-                        <a href="#" class="sl__link">
+                        <a href="http://ucheba486.site/" class="sl__link">
                             <img src="images/sl-7.JPG" alt="sl_slide7" class="sl__img">
                         </a>
                     </div>
                     <div class="sl_slide">
-                        <a href="#" class="sl__link">
+                        <a href="http://k915429g.beget.tech/" class="sl__link">
                             <img src="images/sl-8.JPG" alt="sl_slide8" class="sl__img">
                         </a>
                     </div>
@@ -259,14 +262,39 @@
             <div class="portfolio__container pt-50">
                 <a id="portfolio-hidden"></a>
                 <div class="portfolio__wrap">
+
                     <div class="portfolio__box">
-                        <img src="images/1111.JPG" alt="photo" class="portfolio__jpg">
+                        <a href="http://lionsbet.beget.tech/" class="portfolio__link">
+                            <img src="images/sl-3.JPG" alt="photo" class="portfolio__jpg">
+                        </a>
+                    </div>
+
+                    <div class="portfolio__box">
+                        <a href="http://k915429g.beget.tech/" class="portfolio__link">
+                            <img src="images/sl-8.JPG" alt="photo" class="portfolio__jpg">
+                        </a>
                     </div>
                     <div class="portfolio__box">
-                        <img src="images/1111.JPG" alt="photo" class="portfolio__jpg">
+                        <a href="http://ucheba486.site/" class="portfolio__link">
+                            <img src="images/sl-7.JPG" alt="photo" class="portfolio__jpg">
+                        </a>
+                    </div>
+                </div>
+                <div class="portfolio__wrap portfolio__wrap--hidden">
+                    <div class="portfolio__box">
+                        <a href="http://lionsbet.beget.tech/" class="portfolio__link">
+                            <img src="images/sl-6.JPG" alt="photo" class="portfolio__jpg">
+                        </a>
                     </div>
                     <div class="portfolio__box">
-                        <img src="images/1111.JPG" alt="photo" class="portfolio__jpg">
+                        <a href="http://k915429g.beget.tech/" class="portfolio__link">
+                            <img src="images/sl-5.JPG" alt="photo" class="portfolio__jpg">
+                        </a>
+                    </div>
+                    <div class="portfolio__box">
+                        <a href="http://ucheba486.site/" class="portfolio__link">
+                            <img src="images/sl-4.JPG" alt="photo" class="portfolio__jpg">
+                        </a>
                     </div>
                 </div>
                 <div class="portfolio__wrap portfolio__wrap--hidden">
@@ -274,21 +302,14 @@
                         <img src="images/1111.JPG" alt="photo" class="portfolio__jpg">
                     </div>
                     <div class="portfolio__box">
-                        <img src="images/1111.JPG" alt="photo" class="portfolio__jpg">
+                        <a href="http://k915429g.beget.tech/" class="portfolio__link">
+                            <img src="images/sl-2.JPG" alt="photo" class="portfolio__jpg">
+                        </a>
                     </div>
                     <div class="portfolio__box">
-                        <img src="images/1111.JPG" alt="photo" class="portfolio__jpg">
-                    </div>
-                </div>
-                <div class="portfolio__wrap portfolio__wrap--hidden">
-                    <div class="portfolio__box">
-                        <img src="images/1111.JPG" alt="photo" class="portfolio__jpg">
-                    </div>
-                    <div class="portfolio__box">
-                        <img src="images/1111.JPG" alt="photo" class="portfolio__jpg">
-                    </div>
-                    <div class="portfolio__box">
-                        <img src="images/1111.JPG" alt="photo" class="portfolio__jpg">
+                        <a href="http://ucheba486.site/" class="portfolio__link">
+                            <img src="images/sl-1.JPG" alt="photo" class="portfolio__jpg">
+                        </a>
                     </div>
                 </div>
 
@@ -297,10 +318,10 @@
                 <a href="#portfolio" class="portfolio__link portfolio__link--close pt-20">Закрыть</a>
 
             </div>
-        <div class="portfolio__inner pb-50 pt-50">
-            <hr class="portfolio__hr">
-            <div class="portfolio__rhombus"></div>
-        </div>
+            <div class="portfolio__inner pb-50 pt-50">
+                <hr class="portfolio__hr">
+                <div class="portfolio__rhombus"></div>
+            </div>
 
         </section>
 </main>
@@ -321,10 +342,12 @@
         <form action="send.php" method="post" class="footer__form">
             <div class="footer__wrap">
                 <label><input type="text" name="fio" placeholder="Укажите ФИО" class="footer__input" required></label>
-                <label><input type="text" name="email" placeholder="Укажите e-mail" class="footer__input footer__input--secondary" required></label>
+                <label><input type="text" name="email" placeholder="Укажите e-mail"
+                              class="footer__input footer__input--secondary" required></label>
             </div>
             <div class="footer__wrap">
-                <label><textarea name="comment" id="comment" cols="30" rows="10" placeholder="Ваше сообщение" class="footer__textarea"></textarea></label>
+                <label><textarea name="comment" id="comment" cols="30" rows="10" placeholder="Ваше сообщение"
+                                 class="footer__textarea"></textarea></label>
                 <label><input type="submit" value="Отправить" class="footer__submit"></label>
             </div>
         </form>
@@ -352,8 +375,9 @@
     </ul>
 
 </footer>
-</body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="slick/slick.min.js"></script>
 <script src="js/script.js"></script>
+</body>
+
 </html>

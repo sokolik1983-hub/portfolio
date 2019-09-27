@@ -2,6 +2,9 @@
   width: 100%;
   background-color: lightgrey; }
 
+.portfolio__anchor {
+  position: absolute; }
+
 .portfolio__title {
   font-family: Raleway,Helvetica,sans-serif;
   letter-spacing: 0.5em;
@@ -11,7 +14,7 @@
   text-align: center;
   color: white;
   text-shadow: 0 0 3px rgba(0, 0, 0, 0.9);
-  padding: 30px 0; }
+  padding: 0 0 30px; }
 
 .portfolio__subtitle {
   font-size: 40px; }

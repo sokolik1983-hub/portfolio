@@ -112,12 +112,12 @@ body {
   height: 35px;
   background-color: white;
   border: 2px solid darkgrey;
-  top: 50px;
+  top: 90px;
   left: 50px;
   transition: .3s; }
 
 .nav-arrow--down {
-  top: 70px;
+  top: 110px;
   left: 50px;
   transform: rotate(180deg); }
 
@@ -298,6 +298,16 @@ body {
 .about__wrap--sidebar {
   padding-left: 50px; }
 
+.about__text-box {
+  width: 100%; }
+
+.about__link {
+  text-decoration: none;
+  font-family: Raleway,Helvetica,sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 600; }
+
 .about__sl {
   width: 500px;
   margin: 20px;
@@ -316,17 +326,18 @@ body {
   font-size: 32px;
   line-height: 44px;
   font-weight: 800;
-  text-shadow: 0 0 1px rgba(0, 0, 0, 0.7);
-  color: #666768; }
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+  color: #666768;
+  margin: 10px 0 0; }
 
 .about__text {
   font-family: Raleway,Helvetica,sans-serif;
   color: #6c757d;
   font-size: 16px;
   font-weight: 600;
-  padding: 15px 0;
+  padding: 10px 0;
   margin: 0;
-  text-shadow: 0 0 1px rgba(0, 0, 0, 0.7); }
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.3); }
 
 .about__inner {
   display: flex; }
@@ -337,7 +348,7 @@ body {
   font-size: 16px;
   font-weight: bold;
   margin: 0;
-  padding: 15px 60px 15px 0; }
+  padding: 10px 60px 10px 0; }
 
 .about__items {
   border-bottom: 1px solid #6c757d;
@@ -567,6 +578,9 @@ body {
   width: 100%;
   background-color: lightgrey; }
 
+.portfolio__anchor {
+  position: absolute; }
+
 .portfolio__title {
   font-family: Raleway,Helvetica,sans-serif;
   letter-spacing: 0.5em;
@@ -576,7 +590,7 @@ body {
   text-align: center;
   color: white;
   text-shadow: 0 0 3px rgba(0, 0, 0, 0.9);
-  padding: 30px 0; }
+  padding: 0 0 30px; }
 
 .portfolio__subtitle {
   font-size: 40px; }
