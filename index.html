@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header>
+<header class="wow fadeIn">
     <a id="top"></a>
     <div class="container header__container">
         <div class="hamburger">
@@ -27,16 +28,16 @@
             </div>
         </div>
         <ul class="navbar">
-            <li class="navbar__item">
+            <li class="navbar__item wow bounceInDown" data-wow-duration=".5s">
                 <a href="#" class="navbar__link navbar__link--main">Главная</a>
             </li>
-            <li class="navbar__item">
+            <li class="navbar__item wow bounceInDown">
                 <a href="#about" class="navbar__link navbar__link--about">О себе</a>
             </li>
-            <li class="navbar__item">
+            <li class="navbar__item wow bounceInDown" data-wow-duration="1.5s">
                 <a href="#portfolio" class="navbar__link navbar__link--portfolio">Мои работы</a>
             </li>
-            <li class="navbar__item">
+            <li class="navbar__item wow bounceInDown" data-wow-duration="2s">
                 <a href="#footer" class="navbar__link navbar__link--footer">Сообщение</a>
             </li>
         </ul>
@@ -63,7 +64,7 @@
 
 </header>
 <main>
-    <section class="about">
+    <section class="about wow fadeIn" data-wow-offset="400">
         <a id="about"></a>
         <a href="#top" class="nav-arrow__link nav-arrow__link--top">
             <div class="nav-arrow">
@@ -193,7 +194,7 @@
         </div>
 
     </section>
-        <section class="portfolio">
+        <section class="portfolio wow fadeIn" data-wow-offset="400">
             <a id="portfolio" class="portfolio__anchor"></a>
             <a href="#about" class="nav-arrow__link nav-arrow__link--about">
                 <div class="nav-arrow">
@@ -325,7 +326,7 @@
 
         </section>
 </main>
-<footer>
+<footer class="wow fadeIn" data-wow-offset="400">
     <a href="#portfolio" class="nav-arrow__link nav-arrow__link--portfolio">
         <div class="nav-arrow">
             <img src="images/down-icon.png" alt="down-arrow" class="nav-arrow__img">
@@ -376,6 +377,7 @@
 
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/wow.js"></script>
 <script src="slick/slick.min.js"></script>
 <script src="js/script.js"></script>
 </body>

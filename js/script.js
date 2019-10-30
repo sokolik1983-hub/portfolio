@@ -1,3 +1,9 @@
+// инициировать wow
+var wow = new WOW();
+wow.init();
+
+
+
 // Появление стрелки через 6 секунд
 $(document).ready(function() {
     setTimeout(function(){

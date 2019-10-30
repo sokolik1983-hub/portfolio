@@ -3,8 +3,7 @@
   justify-content: space-between;
   width: 900px;
   margin: 0 auto;
-  padding: 0;
-  animation: navbar 3s 1; }
+  padding: 0; }
 
 .navbar__item {
   list-style: none;
@@ -23,20 +22,7 @@
   color: #f10e34; }
 
 .navbar__link:hover {
-  color: #f10e34;
-  transition: .3s; }
-
-@keyframes navbar {
-  0% {
-    margin-top: -100px; }
-  10% {
-    margin-top: -100px; }
-  20% {
-    margin-top: -100px; }
-  25% {
-    margin-top: -50px; }
-  100% {
-    margin-top: 0; } }
+  color: #f10e34; }
 
 @media screen and (max-width: 768px) {
   .navbar {
