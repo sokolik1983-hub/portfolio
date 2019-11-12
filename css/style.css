@@ -590,7 +590,7 @@ body {
   height: 10px;
   border: 2px solid darkgrey;
   margin: -48px auto 0;
-  background-color: lightgrey;
+  background-color: black;
   transform: rotate(45deg); }
 
 .portfolio__rhombus--color {
@@ -762,3 +762,14 @@ footer {
 
 .mb-20 {
   margin-bottom: 20px; }
+
+.sliders {
+  width: 100%;
+  height: 100vh;
+  background-color: #1b1e21; }
+
+.sliders__container {
+  position: relative;
+  width: 70%;
+  height: 70%;
+  margin: 0 auto; }

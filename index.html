@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/swiper.css">
     <link rel="stylesheet" href="css/style.css">
+
+
+
 </head>
 <body>
 <header class="wow fadeIn">
@@ -117,7 +122,7 @@
                                 <div class="about__text-box">
                                     <p class="about__text">Здравствуйте, меня зовут Алексей. Я начинающий Web-разработчик. HTML5, CSS3,
                                         SASS, JS/JQuery, Photoshop и Figma- то, чем я владею сейчас и постоянно совершенствую свои знания.В своей работе
-                                        использую препроцессор (SASS) и сборщики проектов (GULP) для более эффективной и быстрой вёрстки.
+                                        использую препроцессор (SASS) и сборщик проектов (GULP) для более эффективной и быстрой вёрстки.
                                         Что ищу: Как рыбе вода, необходима стажировка по html/javascript. Нужен опыт работы в команде.
                                     </p>
                                     <p class="about__text"> Цель №1: дорасти до уровня Middle front-end developer.</p>
@@ -195,7 +200,7 @@
 
     </section>
         <section class="portfolio wow fadeIn" data-wow-offset="400">
-            <a id="portfolio" class="portfolio__anchor"></a>
+
             <a href="#about" class="nav-arrow__link nav-arrow__link--about">
                 <div class="nav-arrow">
                     <img src="images/down-icon.png" alt="down-arrow" class="nav-arrow__img">
@@ -206,11 +211,7 @@
                     <img src="images/down-icon.png" alt="down-arrow" class="nav-arrow__img nav-arrow__img--down">
                 </div>
             </a>
-            <div class="portfolio__inner pb-50">
-                <h2 class="portfolio__title">Мои работы</h2>
-                <hr class="portfolio__hr">
-                <div class="portfolio__rhombus"></div>
-            </div>
+
 
             <div class="sl__container">
 
@@ -319,12 +320,67 @@
                 <a href="#portfolio" class="portfolio__link portfolio__link--close pt-20">Закрыть</a>
 
             </div>
-            <div class="portfolio__inner pb-50 pt-50">
-                <hr class="portfolio__hr">
-                <div class="portfolio__rhombus"></div>
-            </div>
+
 
         </section>
+    <section class="sliders wow fadeIn" data-wow-offset="400">
+        <a id="portfolio" class="portfolio__anchor"></a>
+        <a href="#about" class="nav-arrow__link nav-arrow__link--about">
+            <div class="nav-arrow">
+                <img src="images/down-icon.png" alt="down-arrow" class="nav-arrow__img">
+            </div>
+        </a>
+        <a href="#footer" class="nav-arrow__link nav-arrow__link--footer">
+            <div class="nav-arrow nav-arrow--down">
+                <img src="images/down-icon.png" alt="down-arrow" class="nav-arrow__img nav-arrow__img--down">
+            </div>
+        </a>
+        <div class="portfolio__inner">
+            <h2 class="portfolio__title">Мои работы</h2>
+            <hr class="portfolio__hr">
+            <div class="portfolio__rhombus"></div>
+        </div>
+
+        <div class="sliders__container">
+            <div class="swiper-button-next swiper-button-white"></div>
+            <div class="swiper-button-prev swiper-button-white"></div>
+            <div class="swiper-container gallery-top">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image:url(./images/site2.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(./images/sl-1.JPG)"></div>
+                    <div class="swiper-slide" style="background-image:url(./images/sl-2-1.png)"></div>
+                    <div class="swiper-slide" style="background-image:url(./images/sl-2-2.png)"></div>
+                    <div class="swiper-slide" style="background-image:url(./images/sl-2-3.png)"></div>
+                    <div class="swiper-slide" style="background-image:url(./images/sl-2-4.png)"></div>
+                    <div class="swiper-slide" style="background-image:url(./images/sl-3.JPG)"></div>
+                    <div class="swiper-slide" style="background-image:url(./images/sl-4.JPG)"></div>
+                    <div class="swiper-slide" style="background-image:url(./images/sl-5.JPG)"></div>
+                    <div class="swiper-slide" style="background-image:url(./images/sl-6.JPG)"></div>
+                </div>
+                <!-- Add Arrows -->
+<!--                <div class="swiper-button-next swiper-button-white"></div>-->
+<!--                <div class="swiper-button-prev swiper-button-white"></div>-->
+            </div>
+            <div class="swiper-container gallery-thumbs">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image:url(./images/site2.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(./images/sl-5.JPG)"></div>
+                    <div class="swiper-slide" style="background-image:url(./images/sl-5.JPG)"></div>
+                    <div class="swiper-slide" style="background-image:url(./images/sl-5.JPG)"></div>
+                    <div class="swiper-slide" style="background-image:url(./images/sl-5.JPG)"></div>
+                    <div class="swiper-slide" style="background-image:url(./images/sl-5.JPG)"></div>
+                    <div class="swiper-slide" style="background-image:url(./images/sl-5.JPG)"></div>
+                    <div class="swiper-slide" style="background-image:url(./images/sl-5.JPG)"></div>
+                    <div class="swiper-slide" style="background-image:url(./images/sl-5.JPG)"></div>
+                    <div class="swiper-slide" style="background-image:url(./images/sl-6.JPG)"></div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio__inner">
+            <hr class="portfolio__hr">
+            <div class="portfolio__rhombus"></div>
+        </div>
+    </section>
 </main>
 <footer class="wow fadeIn" data-wow-offset="400">
     <a href="#portfolio" class="nav-arrow__link nav-arrow__link--portfolio">
@@ -379,6 +435,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="js/wow.js"></script>
 <script src="slick/slick.min.js"></script>
+<script src="js/swiper.js"></script>
 <script src="js/script.js"></script>
 </body>
 
