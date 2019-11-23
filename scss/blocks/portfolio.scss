@@ -76,4 +76,12 @@
     width: 90%;
   }
 }
+@media screen and (max-width: 1024px) {
+  .portfolio__hr, .portfolio__rhombus {
+    display: none;
+  }
+  .portfolio__title {
+    padding-bottom: 0;
+  }
+}
 

@@ -63,18 +63,6 @@ $('.sl-mini').slick({
     infinite: false
 });
 
-// lazyLoad
-$('.portfolio__link--open').on('click', function() {
-    $('.portfolio__wrap--hidden').css('display', 'flex');
-    $(".portfolio__link--open").css('display', 'none');
-    $(".portfolio__link--close").css('display', 'block');
-});
-
-$('.portfolio__link--close').on('click', function() {
-    $('.portfolio__wrap--hidden').css('display', 'none');
-    $(".portfolio__link--open").css('display', 'block');
-    $(".portfolio__link--close").css('display', 'none');
-});
 //hamburger
 $(function() {
     $('.hamburger__icon').on('click', function(){
@@ -138,18 +126,6 @@ $(function(){
     });
 });
 $(function(){
-    $('.portfolio__link--open',).on('click', function(e){
-        $('html,body').stop().animate({ scrollTop: $('#portfolio-hidden').offset().top }, 1000);
-        e.preventDefault();
-    });
-});
-$(function(){
-    $('.portfolio__link--close',).on('click', function(e){
-        $('html,body').stop().animate({ scrollTop: $('#portfolio').offset().top }, 1000);
-        e.preventDefault();
-    });
-});
-$(function(){
     $('.about__btn--secondary',).on('click', function(e){
         $('html,body').stop().animate({ scrollTop: $('#footer').offset().top }, 1000);
         e.preventDefault();
@@ -194,6 +170,15 @@ var galleryThumbs = new Swiper('.gallery-thumbs', {
     loopedSlides: 5, //looped slides should be the same
     watchSlidesVisibility: true,
     watchSlidesProgress: true,
+    breakpoints: {
+        // when window width is >= 640px
+        320: {
+            slidesPerView: 2,
+        },
+        640: {
+            slidesPerView: 4,
+        }
+    }
 });
 var galleryTop = new Swiper('.gallery-top', {
     spaceBetween: 10,
